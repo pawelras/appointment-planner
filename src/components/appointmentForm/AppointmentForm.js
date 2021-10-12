@@ -33,8 +33,7 @@ export const AppointmentForm = ({
   }
 
   const handleContactChange = ({target}) => {
-    console.log(target)
-    setCurrentContact('aaa');
+        setCurrentContact(target.value);
     
   }
 
